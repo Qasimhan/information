@@ -1,0 +1,138 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #777777; /* blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Section base styling */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Different section backgrounds */
+#about {
+    background-color: #222222; /* light sky blue */
+}
+
+#skills {
+    background-color: #f0f9e8; /* very light green */
+}
+
+#projects {
+    background-color: #44444; /* light orange */
+}
+
+#contact {
+    background-color: #33333; /* light pink */
+}
+
+/* Heading styling */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #888888;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Project List */
+#projects ul {
+    list-style: none;
+}
+
+#projects ul li {
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Contact Links */
+#contact p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+#contact a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+}
